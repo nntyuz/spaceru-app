@@ -449,7 +449,9 @@ input[type=number] {
     line-height: 20px;
     margin-top: 16px;
   }
-
+  .paragraph svg {
+    display: none;
+  }
   .qr svg {
     display: none;
   }
