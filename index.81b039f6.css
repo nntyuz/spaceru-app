@@ -429,6 +429,11 @@ input[type=number] {
     line-height: 18px;
   }
 }
+@media (max-width:425px) {
+  .qr svg {
+    display: none;
+  }
+}
 @media (max-width: 375px) {
   .content {
     padding-bottom: 40px;
